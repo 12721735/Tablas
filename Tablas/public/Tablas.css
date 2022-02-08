@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Hanalei', cursive;
+	font-size: 300%;
+}
+table.p{
+	border-collapse: separate;
+	border: black 1px solid;
+	table-layout: fixed;
+	width: 700px;
+	height: 150px;
+	text-align: center;
+	margin: auto;
+}
+td{
+	border: black 1px solid;
+}
+caption{
+	background-color: yellow;
+	color: blue;
+	font-size: 150%;
+	font-weight: bold;
+}
+hr.h{
+	height: 30px;
+}
+table.s{
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 700px;
+	height: 150px;
+	text-align: center;
+	margin: auto;
+}
+caption.principal{
+	background-color: yellow;
+	color: blue;
+	font-size: 150%;
+	font-weight: bold;
+	caption-side: bottom;
+}
+hr.menos{
+	width: 500px;
+}
+p.bloque{
+	display: block;
+	background-color: yellow;
+	color: blue;
+	border: red 5px solid;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 200%;
+	font-weight: bold;
+}
+td.n{
+	font-weight: bold;
+}
+tr.puntos1{
+	border-bottom-style: dotted;
+	border-color: red;
+	border-width: 5px;
+}
+tr.puntos2{
+	border-left-style: dotted;
+	border-right-style: dotted;
+	border-color: red;
+	border-width: 5px;
+}
+tr.puntos3{
+	border-left-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-color: red;
+	border-width: 5px;
+}
